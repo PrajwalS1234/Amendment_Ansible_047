@@ -121,10 +121,16 @@ df4.to_sql('cleaned_player_details_orig', engine, index=False, if_exists="replac
 conn.close()
 ```
 
-![image](https://github.com/user-attachments/assets/c4f1769c-f4bf-4b04-8e73-dc2bc71b6b13)
-
-
 ## Summary
 
 This documentation covers the process of cleaning data from various CSV files and pushing the cleaned data into a MySQL database. By following the steps outlined, you can efficiently manage and store your cleaned data for further analysis or querying within a SQL environment.
 ```
+![nexttt_page-0003](https://github.com/user-attachments/assets/700025d3-ec7e-4df5-868d-10e8aef3c622)
+
+
+
+Conclusions Drawn:
+1. Data Collection in the company has to be improved. It's harder to analyze data when we have many Unknown values, such as we would have seen in Acquisition channels. Thus, it would be wise to modify the links we are using on our websites to include trackers, such that we would be able to track numerous data points about the users who are using our service and thus create better services for them using that data and try to gain insights from that data.
+2.
+
+Can you hear me?
