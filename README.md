@@ -190,3 +190,66 @@ from google.colab import files
 files.download('merged_df.csv')
 ```
 ```
+```markdown
+# Data Push
+
+This documentation explains the process of pushing cleaned data from CSV files into a MySQL database using SQLAlchemy and Pandas.
+
+## Prerequisites
+
+Ensure you have the necessary libraries installed:
+- `sqlalchemy`
+- `mysqlclient`
+
+You can install these libraries using the following commands:
+
+```bash
+pip install sqlalchemy
+pip install mysqlclient
+```
+
+## Importing Libraries
+
+The script begins by importing the necessary libraries: `warnings`, `create_engine` from `sqlalchemy`, and `pandas` as `pd`. Warnings are also configured to be ignored.
+
+## Database Connection
+
+A connection to the MySQL database is established using SQLAlchemy's `create_engine` function. The connection string format is:
+
+```plaintext
+mysql+mysqldb://username:password@host:port/database
+```
+
+In this script, the connection string used is:
+
+```plaintext
+mysql+mysqldb://root:123456789@127.0.0.1:3306/B37CW
+```
+
+## Loading Data
+
+Cleaned data is loaded from CSV files into Pandas DataFrames. The CSV files include:
+- `cleaned_player_activity_orig.csv`
+- `cleaned_bonus_cost_data.csv`
+- `cleaned_first_bet_orig.csv`
+- `cleaned_first_deposit_orig.csv`
+- `cleaned_player_details_orig.csv`
+
+## Pushing Data to MySQL
+
+1. **Establish Connection**: A connection to the database is established using the `connect()` method on the engine object.
+
+2. **Push DataFrames to SQL Tables**: Each DataFrame is written to the database using the `to_sql()` method. The tables are named after the corresponding CSV files. The parameter `if_exists="replace"` ensures that any existing table with the same name is replaced with the new data.
+
+    - `cleaned_player_activity_orig` DataFrame is pushed to the `cleaned_player_activity_orig` table.
+    - `cleaned_bonus_cost_data` DataFrame is pushed to the `cleaned_bonus_cost_data` table.
+    - `cleaned_first_bet_orig` DataFrame is pushed to the `cleaned_first_bet_orig` table.
+    - `cleaned_first_deposit_orig` DataFrame is pushed to the `cleaned_first_deposit_orig` table.
+    - `cleaned_player_details_orig` DataFrame is pushed to the `cleaned_player_details_orig` table.
+
+3. **Close Connection**: The connection to the database is closed to ensure that there are no open connections left.
+
+## Summary
+
+This script automates the process of transferring cleaned data from CSV files to a MySQL database, making the data available for further analysis or querying within a SQL environment. By following the steps outlined in the script, you can efficiently manage and store your cleaned data in a structured format.
+```
