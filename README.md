@@ -124,7 +124,7 @@ conn.close()
 ## Summary
 
 This documentation covers the process of cleaning data from various CSV files and pushing the cleaned data into a MySQL database. By following the steps outlined, you can efficiently manage and store your cleaned data for further analysis or querying within a SQL environment.
-```
+
 ![nexttt_page-0003](https://github.com/user-attachments/assets/700025d3-ec7e-4df5-868d-10e8aef3c622)
 
 
