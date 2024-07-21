@@ -129,7 +129,7 @@ This documentation covers the process of cleaning data from various CSV files an
 
 
 
-Here are the corrected conclusions:
+Here are the insights we generated:
 
 1. Data collection in the company needs improvement. It's challenging to analyze data when we have many unknown values, such as those seen in acquisition channels. Therefore, it would be wise to modify the links we use on our websites to include trackers, enabling us to track numerous data points about the users who utilize our service. This would help us create better services and gain insights from that data.
 
