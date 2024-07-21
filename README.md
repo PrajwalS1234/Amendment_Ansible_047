@@ -121,6 +121,9 @@ df4.to_sql('cleaned_player_details_orig', engine, index=False, if_exists="replac
 conn.close()
 ```
 
+![image](https://github.com/user-attachments/assets/c4f1769c-f4bf-4b04-8e73-dc2bc71b6b13)
+
+
 ## Summary
 
 This documentation covers the process of cleaning data from various CSV files and pushing the cleaned data into a MySQL database. By following the steps outlined, you can efficiently manage and store your cleaned data for further analysis or querying within a SQL environment.
