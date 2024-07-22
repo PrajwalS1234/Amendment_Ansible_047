@@ -132,12 +132,12 @@ Here are the insights we generated:
 
 1. Data collection in the company needs improvement. It's challenging to analyze data when we have many unknown values, such as those seen in acquisition channels. Therefore, it would be wise to modify the links we use on our websites to include trackers, enabling us to track numerous data points about the users who utilize our service. This would help us create better services and gain insights from that data.
 
-2. We can create a new referral program where existing users are rewarded for introducing their friends or family to the application.
+2. Create a new referral program where existing users are rewarded for introducing their friends or family to the application.
 
-3. We can remove products that are making losses, even if they have had the longest run, while retaining products that have had less time to acquire users.
+3. Remove products that are making losses, even if they have had the longest run while retaining products that have had less time to acquire users.
 
-4. We can incentivize casual players to play more by implementing a streak-like system where users are rewarded for logging into the service/app for a certain number of consecutive days, such as 7, 50, 100, 200, 300, and 365 days.
+4. Incentivize casual players to play more by implementing a streak-like system where users are rewarded for logging into the service/app for a certain number of consecutive days, such as 7, 50, 100, 200, 300, and 365 days.
 
 5. Since phones are readily available, we should encourage more phone users to join the game by prioritizing phone users over laptop users when resources are scarce.
 
-6. We should increase the conversion rate by providing users with an non-withdrawable amount of money to play with. This money can only be accessed if they add a certain amount (x) and play a specific number of games (y). Additionally, ensure the withdrawal time is 21 days, similar to practices used by stock companies like Zerodha.
+6. We should increase the conversion rate by providing users with a non-withdrawable amount of money to play with. This money can only be accessed if they add a certain amount (x) and play a specific number of games (y). Additionally, ensure the withdrawal time is 21 days, similar to practices used by stock companies like Zerodha.
