@@ -140,4 +140,4 @@ Here are the insights we generated:
 
 5. Since phones are readily available, we should encourage more phone users to join the game by prioritizing phone users over laptop users when resources are scarce.
 
-6. We should increase the conversion rate by providing users with a non-withdrawable amount of money to play with. This money can only be accessed if they add a certain amount (x) and play a specific number of games (y). Additionally, ensure the withdrawal time is 21 days, similar to practices used by stock companies like Zerodha.
+6. We should increase the conversion rate by providing users with a non-withdrawable amount of money to play with. This money can only be accessed if the user has deposited has added a certain amount (x) of money and has played a specific number of games (y). Additionally, ensure the withdrawal time is 21 days, similar to practices used by stock companies like Zerodha, so that the users can't make can impulsive decisions to take their money out. 
