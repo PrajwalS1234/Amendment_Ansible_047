@@ -1,4 +1,3 @@
-markdown
 # Betting App Data Cleaning and Data Push
 
 This project involves cleaning and merging various datasets related to a betting application and then pushing the cleaned data into a MySQL database.
@@ -125,7 +124,7 @@ conn.close()
 
 This documentation covers the process of cleaning data from various CSV files and pushing the cleaned data into a MySQL database. By following the steps outlined, you can efficiently manage and store your cleaned data for further analysis or querying within a SQL environment.
 
-![nexttt_page-0003](https://github.com/user-attachments/assets/700025d3-ec7e-4df5-868d-10e8aef3c622)
+![nexttt-1_page-0003](https://github.com/user-attachments/assets/833bf8ca-fa4d-4b9e-9515-5486074050c4)
 
 
 
@@ -141,4 +140,4 @@ Here are the insights we generated:
 
 5. Since phones are readily available, we should encourage more phone users to join the game by prioritizing phone users over laptop users when resources are scarce.
 
-6. We should increase the conversion rate by providing users with an unwithdrawable amount of money to play with. This money can only be accessed if they add a certain amount (x) and play a specific number of games (y). Additionally, ensure the withdrawal time is 21 days, similar to practices used by stock companies like Zerodha.
+6. We should increase the conversion rate by providing users with an non-withdrawable amount of money to play with. This money can only be accessed if they add a certain amount (x) and play a specific number of games (y). Additionally, ensure the withdrawal time is 21 days, similar to practices used by stock companies like Zerodha.
