@@ -1,4 +1,4 @@
-```markdown
+markdown
 # Betting App Data Cleaning and Data Push
 
 This project involves cleaning and merging various datasets related to a betting application and then pushing the cleaned data into a MySQL database.
